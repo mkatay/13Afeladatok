@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        caption {
+            font-weight: bold;
+            padding: 1rem;
+        }
+
+        thead,
+        tfoot {
+            background-color: lightgray;
+        }
+
+        /*td:not(td:nth-child(1)){
+            text-align:right;
+        }*/
+        /*vagy:*/
+        td {
+            text-align: right;
+        }
+
+       /* td:nth-child(1) {
+            text-align: left;
+        }
+        /*vagy*/
+        .nev {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>A bevásárló kosár tartalma</caption>
+        <thead>
+            <tr>
+                <th>Terméknév</th>
+                <th>Ár</th>
+                <th>Darab</th>
+                <th>Össz ár</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td class="nev">Napszemüveg</td>
+                <td>1500</td>
+                <td>1</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td class="nev">Poló</td>
+                <td>2500</td>
+                <td>2</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td class="nev">Fülhallgató</td>
+                <td>20000</td>
+                <td>3</td>
+                <td>60000</td>
+            </tr>
+            </tbody>  
+        <tfoot>
+            <th colspan="3">Összesen fizetendő:</th>
+            <th>66500</th>
+        </tfoot>
+      
+
+    </table>
+
+</body>
+
+</html>

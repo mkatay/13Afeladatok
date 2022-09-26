@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árnyékolás</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        div {
+            margin:20px;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        div:nth-child(1) {
+            box-shadow: 0 0 20px gray;
+        }
+        div:nth-child(2) {
+        box-shadow: 0.5rem 0.5rem black;
+        }
+        div:nth-child(3) {
+        box-shadow: -0.5rem -0.5rem gray;
+        }
+        div:nth-child(4) {
+        box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem gray;
+        }
+        div:nth-child(5) {
+        border-radius: 50%;
+        box-shadow: 0 0 50px red;
+        }
+        div:nth-child(6) {
+            box-shadow: 10px 20px 20px gray;
+        }
+        div:nth-child(7) {
+            box-shadow: 10px 20px 20px 20px gray;
+        }
+    </style>
+</head>
+<body>
+ 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+  
+</body>
+</html>
